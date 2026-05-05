@@ -1,0 +1,37 @@
+:root {
+  /* Canvas */
+  --bg-canvas: #0f1117;
+  --bg-node: #1a1d27;
+  --bg-node-header: #13151f;
+
+  /* Borders */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-selected: rgba(99, 102, 241, 0.8);
+
+  /* Text */
+  --text-primary: #f0f0f5;
+  --text-secondary: #8b8fa8;
+  --text-label: #5b5f7a;
+
+  /* Per-type accent colors */
+  --color-input: #22d3ee; /* cyan */
+  --color-output: #34d399; /* emerald */
+  --color-llm: #a78bfa; /* purple */
+  --color-text: #fb923c; /* orange */
+  --color-transform: #60a5fa; /* blue */
+  --color-filter: #f472b6; /* pink */
+  --color-api: #facc15; /* yellow */
+  --color-merge: #4ade80; /* green */
+  --color-conditional: #f87171; /* red */
+
+  /* Spacing */
+  --radius-node: 10px;
+  --radius-inner: 6px;
+  --node-width: 220px;
+  --padding-node: 12px;
+
+  /* Shadows */
+  --shadow-node: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-selected:
+    0 0 0 2px var(--border-selected), 0 4px 24px rgba(99, 102, 241, 0.2);
+}

@@ -1,0 +1,25 @@
+/* ReactFlow overrides */
+.react-flow__handle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--bg-node);
+  border: 2px solid var(--accent, var(--border-selected));
+  transition:
+    transform 0.1s ease,
+    background 0.1s ease;
+}
+
+.react-flow__handle:hover {
+  transform: scale(1.4);
+  background: var(--accent, var(--border-selected));
+}
+
+.react-flow__edge-path {
+  stroke: rgba(99, 102, 241, 0.6);
+  stroke-width: 2;
+}
+
+.react-flow__edge.selected .react-flow__edge-path {
+  stroke: rgba(99, 102, 241, 1);
+}
